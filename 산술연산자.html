@@ -1,0 +1,33 @@
+<script>
+  /* 
+    산술 연산자
+     = 대입 혹은 할당,
+     + 더하기,
+     - 뺴기,
+     *곱하기,
+     /나누기,
+     %나머지값,
+     **거듭제곱
+
+     자바스크립트의 연산은 사칙 연산의 방식을 대부분 따름
+  
+  */
+
+ //대입 연산자
+ let a = 333, b =22, c=55;
+  // +, - 연산자만 있는 경우 왼쪽에서 오른쪽으로 순차 연산
+ console.log(a -b+c);
+ // *,/,%,** 연산자만 있는 경우 왼쪽에서 오른 쪽으로 순차 연산
+ console.log(a * b / c);
+// 사칙연산을 따름
+ console.log( a - b * c); // b*c 먼저 여산 후 a에서 값을 빼줌
+
+ console.log(
+  (a -b) * c
+ );
+ console.log(2**4);
+ console.log(6/4);
+ console.log(6 % 4);
+ console.log(5 % 3);
+ console.log(4 % 3);
+</script>
